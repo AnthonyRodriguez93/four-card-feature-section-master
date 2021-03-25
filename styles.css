@@ -12,6 +12,7 @@ body {
     width: 100vh; */
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 p {
@@ -31,6 +32,12 @@ footer {
 }
 
 
+.blurb {
+    font-size: 1rem;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
 
 .features {
     /* display: grid;
@@ -43,8 +50,8 @@ footer {
 .supervisor-card {
     /* grid-area: 2; */
     border-top: hsl(180, 62%, 55%) solid;
-    transform: translate(-600px, 120px);
-    position: absolute;
+    /* transform: translate(-600px, 120px);
+    position: absolute; */
 }
 
 .teambuilder-card {
@@ -60,9 +67,11 @@ footer {
 
 .calc-card {
     /* grid-area: -3/-2; */
+
     border-top: hsl(212, 86%, 64%) solid;
-    position: absolute;
-    transform: translate(600px, -520px);
+
+    /* position: absolute;
+    transform: translate(600px, -520px); */
 }
 
 .card-title {
@@ -89,10 +98,12 @@ footer {
     width: 35rem;
     height: 20rem;
     border-radius: 10px;
-    box-shadow: 0px 5px 20px 0px #000000;
+    box-shadow: 0px 0px 20px 0px #000000;
     border-left: none;
     border-right: none;
     border-bottom: none;
+    margin: auto;
+    margin-bottom: 4rem;
 }
 
 .main-heading {
@@ -112,3 +123,10 @@ footer {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+/* @media (min-width: 1440px) {
+    .card {
+        position: relative;
+        transform: none;
+    }
+} */
