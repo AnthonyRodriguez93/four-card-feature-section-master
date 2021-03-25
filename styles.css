@@ -127,3 +127,12 @@ footer {
     color: hsl(228, 45%, 44%); 
 }
 
+@media (max-width: 512px) {
+    .card {
+        width: 26rem;
+    }
+    
+    img {
+        transform: translate(145px, -10px);
+    }
+}
