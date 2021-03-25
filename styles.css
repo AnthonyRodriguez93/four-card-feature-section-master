@@ -132,6 +132,10 @@ footer {
         width: 26rem;
     }
     
+    body {
+        align-items: center;
+    }
+
     img {
         transform: translate(145px, -10px);
     }
