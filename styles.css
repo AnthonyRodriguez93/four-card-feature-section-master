@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
+    align-items: center;
 }
 
 p {
@@ -132,8 +133,8 @@ footer {
         width: 26rem;
     }
     
-    body {
-        align-items: center;
+    .col {
+        padding: 0;
     }
 
     img {
