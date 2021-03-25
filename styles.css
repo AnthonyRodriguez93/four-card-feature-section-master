@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     margin: auto;
     align-items: center;
+    background-color: hsl(0, 0%, 98%);
 }
 
 p {
@@ -108,6 +109,7 @@ footer {
     border-bottom: none;
     margin: auto;
     margin-bottom: 4rem;
+    background-color: hsl(0, 0%, 98%);
 }
 
 .main-heading {
